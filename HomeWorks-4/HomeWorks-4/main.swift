@@ -232,6 +232,7 @@ var carTwo = TrunkCar(mark: "DAf",
 
 carOne.volumeTrunkComplete += 40
 carOne.trunkRemove(freight: 30)
+carTwo.windowsStatus = .close
 carOne.printCar()
 carTwo.printCar()
 
